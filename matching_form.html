@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>희찬고</title>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/commom.css">
+    <link rel="stylesheet" href="css/mastar.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- <link rel="stylesheet" href="css/god1hyuk.css" /> -->
+
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+
+    <div class="container-sub-head btm">
+        <div class="warp-m">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 pd-x-32 sub-top">
+                        <a href="matching_info.html">
+                            <img src="images/icon/ico_pop_close.png" alt="" />
+                        </a>
+                        <div class="icon_wrap">
+                            <a href="#">
+                                <img src="images/icon/ico_menu.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 매칭 헤더 영역 -->
+    <div class="form_header mt-5">
+        <div class="warp-m">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="matching_circle_wrap">
+                            <div class="matching_circle">
+                                <h1>웨딩홀 1</h1>
+                                <p>매칭 업체 <span>152</span>개</p>
+                                <div class="circle_in_line"></div>
+                                <img src="images/icon/ico_speech_balloon.png" alt="말풍선_아이콘" />
+                                <p><span>5</span>개</p>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 매칭 폼 영역 -->
+    <div class="matching_form mt-5 mb-5">
+        <div class="warp-m">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 conts">
+                        <form action="">
+                            <ul>
+                                <li class="cont">
+                                    <div class="matching_name d-flex justify-content-between">
+                                        <p>매칭제목</p>
+                                        <label for="m_name">
+                                            <input type="text" id="m_name" placeholder="웨딩홀 1">
+                                            <button>
+                                                <img src="images/icon/ico_close.png" alt="닫기_아이콘" />
+                                            </button>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="hope_area d-flex justify-content-between">
+                                        <p>희망지역</p>
+                                        <label for="h_area">
+                                            <input type="search" id="h_area" placeholder="최대 3개 가능">
+                                            <button>
+                                                <img src="images/icon/ico_search.png" alt="검색_아이콘" />
+                                            </button>    
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="hope_date d-flex justify-content-between">
+                                        <p>희망날짜</p>
+                                        <div class="inputs_wrap d-flex">
+                                            <label for="matching_datepicker">
+                                                <input type="text" id="matching_datepicker" placeholder="날짜" style="text-align: center;">
+                                            </label>
+                                            <label for="time">
+                                                <select name="time" id="time">
+                                                    <option value="">시간대</option>
+                                                    <option value="09시">09시</option>
+                                                    <option value="09시">10시</option>
+                                                    <option value="09시">11시</option>
+                                                    <option value="09시">12시</option>
+                                                    <option value="09시">13시</option>
+                                                    <option value="09시">14시</option>
+                                                    <option value="09시">15시</option>
+                                                    <option value="09시">16시</option>
+                                                    <option value="09시">17시</option>
+                                                    <option value="09시">18시</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="pick_holiday d-flex justify-content-between">
+                                        <p>공휴일택</p>
+                                        <div class="inputs_wrap d-flex">
+                                            <div class="d-flex">
+                                                <input type="radio" name="want" id="matching_want1">
+                                                <label for="matching_want1">원해요</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="want" id="matching_want2">
+                                                <label for="matching_want2">원하지 않아요</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="hope_time d-flex justify-content-between">
+                                        <p>희망시간</p>
+                                        <div class="inputs_wrap d-flex">
+                                            <label for="meridiem">
+                                                <select name="meridiem" id="meridiem">       
+                                                    <option value="am">오전</option>
+                                                    <option value="pm">오후</option>
+                                                </select>
+                                            </label>
+                                            <label for="time">
+                                                <select name="time" id="time">
+                                                    <option value="">시간대</option>
+                                                    <option value="09">09시</option>
+                                                    <option value="10">10시</option>
+                                                    <option value="11">11시</option>
+                                                    <option value="12">12시</option>
+                                                    <option value="13">13시</option>
+                                                    <option value="14">14시</option>
+                                                    <option value="15">15시</option>
+                                                    <option value="16">16시</option>
+                                                    <option value="17">17시</option>
+                                                    <option value="18">18시</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="expected_guests d-flex justify-content-between">
+                                        <p>예상하객</p>
+                                        <div class="inputs_wrap d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <input type="radio" name="guests" id="matching_guest1">
+                                                <label for="matching_guest1">~ 100명 미만</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="guests" id="matching_guest2">
+                                                <label for="matching_guest2">100명 ~ 200명</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="guests" id="matching_guest3">
+                                                <label for="matching_guest3">200명 이상 ~</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="eating_type d-flex justify-content-between">
+                                        <p>식사타입</p>
+                                        <div class="inputs_wrap d-flex">
+                                            <div class="d-flex">
+                                                <input type="radio" name="eating" id="matching_eating1">
+                                                <label for="matching_eating1">코스</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="eating" id="matching_eating2">
+                                                <label for="matching_eating2">뷔페</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="hope_cost d-flex justify-content-between">
+                                        <p>희망비용</p>
+                                        <div class="inputs_wrap d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <input type="radio" name="cost" id="matching_cost1">
+                                                <label for="matching_cost1">~ 500만원</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="cost" id="matching_cost2">
+                                                <label for="matching_cost2">500만원 ~ 1,000만원</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="radio" name="cost" id="cost3">
+                                                <label for="cost3">1,000만원 이상 ~</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont">
+                                    <div class="etc d-flex justify-content-between">
+                                        <p>기타사항</p>
+                                        <label for="etc_text">
+                                            <textarea name="etc" id="etc_text" onclick=this.value=''>꽃이 화려하고 예식장 배경이 블랙이였으면 좋겠어요!</textarea>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                        <div class="done_btn d-flex justify-content-center mt-5">
+                            <button onclick="location.href='matching_info.html'">수정완료</button>
+                            <button>취소하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        $.datepicker.setDefaults({
+            dateFormat: 'yy-mm-dd',
+            prevText: '이전 달',
+            nextText: '다음 달',
+            monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+            monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+            dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+            dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+            dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            showMonthAfterYear: true,
+            yearSuffix: '년'
+        });
+
+        $(function() {
+            $("#matching_datepicker").datepicker();
+        });
+    </script>
+       
+</body>
+</html>

@@ -1,0 +1,869 @@
+@media (max-width: 768px) {
+    .header-bg {
+        padding: 0 15px;
+    }
+    .information .search-bars {
+        min-width: inherit;
+    }
+    .main-content-title h1 {
+        font-size: 1.75rem;
+    }
+    .title h1 {
+        font-size: 1.75rem;
+    }
+    .title h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-slider .img_area {
+        max-width: 12.25rem;
+        max-height: 12.25rem;
+    }
+
+    .list-contents .text_area .content_main {
+        flex-direction: column;
+    }
+    .list-contents .text_area .content_main p{
+        letter-spacing: -1px;
+        font-size: 1.5714rem;
+    }
+
+
+    /* 매칭 폼 영역 */
+    .matching_form .cont > div {
+        flex-direction: column;
+    }
+    .matching_form .cont p {
+        align-self: baseline;
+        margin-bottom: .5rem;
+    }
+    .matching_form .matching_name label, .matching_form .hope_area label {
+        width: 100%;
+    }
+    .matching_form #time {
+        width: 100%;
+        margin-left: 0;
+    }
+    .matching_form .inputs_wrap {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .matching_form .hope_date label {
+        width: 49.5%;
+    }
+    .matching_form label[for="time"] {
+        width: 49.5%;
+    }
+    .matching_form .inputs_wrap > div {
+        width: 49.5%;
+    }
+    .matching_form input[type="radio"] + label {
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+    }
+    .matching_form .hope_time label[for="meridiem"] {
+        width: 49.5%;
+    }
+    .matching_form .expected_guests .inputs_wrap>div:last-child,
+    .matching_form .hope_cost .inputs_wrap>div:last-child,
+    .matching_form .hope_concept .inputs_wrap>div:last-child {
+        margin-top: 1rem;
+    }
+    .matching_form .etc label {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .content-slider .img_area {
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+
+    .container-full-MI .message_area .message_text {
+        font-size: 0.8571rem;
+        padding: 0.3571rem;
+    }
+    .container-full-MI .message_menu ul li a {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+    .container-full-MI .message_area ul li:first-child {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 586px) {
+    .logo img {
+        width: 75%;
+    }
+    .information-icon .xi-user {
+        font-size: 30px;
+        margin: 0 0.5rem;
+    }
+    .information-icon .xi-bars {
+        font-size: 30px;
+    }
+    .information .search {
+        display: none;
+    }
+    .main-content-title h1 {
+        font-size: 1.5rem;
+    }
+    .title h1 {
+        font-size: 1.5rem;
+    }
+    .recently {
+        flex-wrap: wrap;
+    }
+    .recently span {
+        display: none;
+    }
+
+    .content-slider .img_area {
+        max-width: 7.5rem;
+        max-height: 7.5rem;
+    }
+    .content-slider .text_area {
+        margin-left: 0;
+    }
+
+    .container-full-introduction .col-sm-6:last-child {
+        margin-top: 2rem;
+    }
+
+
+
+    /* 서브페이지 추가 */
+    /* wedding.html */
+    .container-full-category .input_date {
+        flex-direction: column;
+    }
+    .container-full-category .input_date input:first-child {
+        margin-bottom: 0.7142rem;
+    }
+    .container-full-list .list_cont .text_area .company_name h5 {
+        font-size: 1.1428rem;
+    }
+    .container-full-diary .search_menu {
+        flex-direction: column;
+    }
+    .container-full-diary .search_menu select:first-child {
+        margin-left: 0.5rem;
+    }
+    .container-full-diary .search_menu .filter {
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+    .container-full-diary .search_menu .filter i {
+        line-height: 45px;
+        align-items: center;
+        height: 45px;
+    }
+    /* 대쉬보드 디테일 */
+    .container-full-dashboard form {
+        margin-top: 1rem;
+    }
+    .container-full-dashboard .cont {
+        flex-direction: column;
+    }
+    .container-full-dashboard .cont label {
+        width: 100%;
+        /* margin-bottom: 1rem; */
+        align-self: start;
+    }
+    .container-full-dashboard .cont input {
+        width: 100%;
+    }
+    /* 대쉬보드 디테일 */
+
+
+    /*  */
+
+    .container-full-diary-detail .cont {
+        flex-direction: column;
+    }
+    .container-full-diary-detail .cont label {
+        width: 100%;
+        margin-bottom: 1rem;
+        align-self: start;
+    }
+    .container-full-diary-detail .cont input {
+        width: 100%;
+    }
+
+    /*  */
+    /* 추천 웨딩홀 */
+    .container-full-list .list_cont .img_area {
+        width: 45%;
+    }
+    .container-full-list .list_cont .text_area {
+        width: 55%;
+    }
+    /* 추천 웨딩홀 */
+
+
+    /* 0618 수정 */
+    .container-sub-head .sub-menu a {
+        font-size: 1rem;
+    }
+    .matching_form .cont p {
+        font-size: 1.1428rem;
+    }
+    .matching_form input, .matching_form select {
+        height: 3rem;
+        font-size: 1rem;
+    }
+    .matching_form input[type="radio"] + label {
+        height: 3rem;
+        font-size: 1rem;
+    }
+    .matching_form .cont input[type="search"] + button {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .matching_form #etc_text {
+        font-size: 1rem;
+        border-radius: 24px;
+    }
+    .matching_form .done_btn button {
+        font-size: 1rem;
+    }
+
+
+    .container-real-tile .type {
+        flex-direction: column;
+    }
+
+    .container-real-tile .type > select:first-child {
+        width: 100%;
+    }
+    .container-real-tile .type .area-search {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .area-wedding-category {
+        margin: 0;
+    }
+    .container-real-tile .type button {
+        width: 15%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .container-full-navi .text_area p {
+        font-size: .8571rem;
+        letter-spacing: -1px;
+    }
+
+    .container-full-tab .tab_wrap ul li a {
+        font-size: 1rem;
+    }
+
+    .wedding-main-title h1 {
+        font-size: 1rem;
+    }
+    .wedding-date-wrap .wedding-main-title h2 {
+        font-size: 1rem;
+    }
+    .wedding-date-wrap .wedding-main-title h2 span {
+        font-size: 1.4285rem;
+    }
+
+    .wedding-diary-top .weddingSlider .swiper-slide p {
+        font-size: 1.1428rem;
+    }
+    
+
+    .wedding-date-wrap .d-day-change {
+        flex-direction: column;
+    }
+    .wedding-date-wrap .d-day-change button {
+        margin-top: 1rem;
+        align-self: flex-end;
+    }
+    .wedding-diary-top .weddingSliderBottom .wed-title {
+        font-size: 1.1428rem;
+    }
+
+
+
+     /* container-mp-conts */
+     .container-mp-head .mp_info {
+        flex-direction: column;
+    }
+    .container-mp-head .info_wrap {
+        align-self: flex-start;
+    }
+    .container-mp-head .mp_info a {
+        align-self: flex-end;
+        margin-top: 2rem;
+        margin-right: 0;
+    }
+    .container-mp-conts .date {
+        flex-direction: column;
+    }
+    .container-mp-conts .date a {
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+    .container-mp-conts .day-wrap {
+        width: 100%;
+    }
+    
+    .container-mp-coin .coin-item {
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .container-mp-coin .coin-item p {
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+    .container-mp-coin .total {
+        margin-top: .7142rem;
+    }
+    .container-mp-coin .tab-button-outer {
+        display: none;
+    }
+    .container-mp-coin .tab-select-outer {
+        display: block;
+    }
+
+
+    .container-mp-conts ul li p {
+        font-size: 1rem;
+    }
+    .container-mp-coin #tab-select {
+        font-size: 1rem;
+        padding: .5rem 1.5rem;
+    }
+    .container-btn-wrap li button {
+        font-size: 1rem;
+        padding: .5rem 0;
+    }
+
+    .container-mp-coin .br-1 {
+        border-radius: 0;
+    }
+
+    .btn_contents {
+        justify-content: center;
+    }
+
+
+
+    .container-matching-item ul li .matching_circle {
+        width: 17rem;
+        height: 17rem;
+    }
+    .container-matching-item ul li .matching_circle h1 {
+        font-size: 1.5rem;
+    }
+    .container-matching-item ul li .matching_circle p {
+        font-size: 1rem;
+    }
+    .container-matching-item ul li .matching_circle .circle_in_line {
+        margin: 1rem 0;
+    }
+
+
+
+    .container-sub-head .back-contents p {
+        font-size: 1rem;
+    }
+
+    .container-full-studio .content_review .score {
+        flex-direction: column;
+    }
+    .container-full-studio .content_review a {
+        margin-top: .7142rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 460px) {
+    /* 매칭 폼 영역 */
+    .gallery_area li {
+        max-width: 50%;
+    }
+    .container-full-studio .content_text p {
+        font-size: 1.1428rem;
+    }
+    .btn_contents .content {
+        height: 3rem;
+    }
+    .btn_contents .content a {
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .container-real-tile .area-search select {
+        width: 75%;
+    }
+
+    .container-full-wedding .p-0 {
+        padding: 0 15px !important;
+    }
+
+    /* 매칭 헤더 영역 */
+    .matching_circle {
+        max-width: 20rem;
+        height: 20rem;
+    }
+
+    .wedding-date-wrap .wedding-main-title {
+        padding: 1.5rem 0;
+    }
+    .wedding-diary-top {
+        margin-top: 1.5rem;
+    }
+
+    .container-full-MI .info_area ul li {
+        flex-direction: column;
+    }
+
+
+
+    /* container-mp-conts */
+    .container-mp-conts ul {
+        flex-wrap: wrap;
+    }
+    .container-mp-conts ul li {
+        width: 50%;
+    }
+    .container-mp-conts ul li:nth-child(3),
+    .container-mp-conts ul li:last-child {
+        margin-top: 3rem;
+    }
+    .container-mp-coin {
+        padding: 0 !important;
+    }
+    .container-mp-coin .warp-m {
+        padding: 0;
+    }
+    .container-btn-wrap ul {
+        flex-direction: column;
+    }
+    .container-btn-wrap li {
+        width: 90%;
+    }
+    .container-btn-wrap li:last-child {
+        margin-top: 1rem;
+    }
+
+
+
+
+    .container-mp-coin .coin-conts {
+        flex-direction: column;
+    }
+
+    .container-mp-coin .coin-conts .total {
+        align-self: center;
+    }
+
+
+
+    .container-matching-item ul {
+        margin-top: 1.5rem;
+    }
+    .container-matching-item ul li {
+        margin-bottom: 1rem;
+    }
+    .container-matching-item ul li .matching_circle {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .container-matching-item ul li .matching_circle h1 {
+        font-size: 1.2857rem;
+    }
+    .container-matching-item ul li .matching_circle .circle_in_line {
+        margin: .5rem 0;
+    }
+    
+    .container-full-start p {
+        font-size: .8571rem;
+    }
+}
+
+@media (max-width: 405px) {
+    .matching_form .inputs_wrap>div,
+    .matching_form .inputs_wrap label,
+    .matching_form .inputs_wrap input {
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+    .matching_form .hope_date label:last-child,
+    .matching_form .pick_holiday .inputs_wrap>div:last-child,
+    .matching_form .hope_time label:last-child,
+    .matching_form .expected_guests .inputs_wrap>div:nth-child(2),
+    .matching_form .eating_type label:last-child,
+    .matching_form .hope_cost .inputs_wrap>div:nth-child(2) {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-real-tile .type {
+        flex-direction: column;
+    }
+    .recently a {
+        padding-left: 0;
+    }
+    .recently a::after {
+        display: none !important;
+    }
+
+    .content_wrapper .text_area p {
+        font-size: 1rem;
+    }
+    
+    /* wedding.html */
+
+    /* 웨딩홀 다이어리 상단 타이틀 */
+    .container-full-diary .diary_cont .text_area h1 {
+        font-size: 1.7857rem;
+    }
+    .container-full-diary .search_menu .filter select {
+        width: 50%;
+    }
+    /* 웨딩홀 다이어리 상단 타이틀 */
+
+    /* 대쉬보드 디테일 */
+    .container-full-dashboard .title h5 {
+        font-size: 1.2857rem;
+    }
+    .container-full-dashboard .move a { 
+        font-size: 0.8571rem;
+    }
+    /* 대쉬보드 디테일 */
+
+    /* 웨딩홀 카테고리 */
+    .container-full-category label {
+        font-size: 1rem;
+    }
+    /* 웨딩홀 카테고리 */
+
+    /* 추천 웨딩홀 */
+    .container-full-list .list_cont li {
+        padding: 1.4285rem 1.0714rem;
+    }
+    .container-full-list .list_cont .text_area {
+        padding-left: 1.0714rem;
+    }
+    .container-full-list .list_cont .text_area .company_address span {
+        font-size: 0.7142rem;
+    }
+    .container-full-list .list_cont .text_area .company_bt a {
+        font-size: 0.7142rem;
+    }
+    .container-full-list .list_cont .text_area .company_bt em {
+        font-size: 0.8571rem;
+    }
+    /* 추천 웨딩홀 */
+    /* wedding.html */
+
+    /* communication_wedding.html */
+
+    /* 커뮤니케이션 목록 */
+    .container-full-communication .title h5 {
+        font-size: 1.2857rem;
+    }
+    .container-full-communication .accordion-header p {
+        padding-right: 0.8571rem;
+    }
+    .container-full-communication .accordion-body p {
+        font-size: 0.8571rem;
+    }
+    /* 커뮤니케이션 목록 */
+
+    /* communication history */
+    .container-full-history .title {
+        flex-direction: row;
+    }
+    .container-full-history .title i {
+        margin-left: 3rem;
+    }
+    .container-full-history ul li {
+        font-size: 0.8571rem;
+    }
+    /* communication history 끝 */
+
+    /* communication_wedding.html end */
+
+    /* 매칭 폼 영역 */
+    .matching_form .done_btn {
+        flex-direction: column;
+    }
+    .matching_form .done_btn button {
+        max-width: none;
+        margin: 0 auto;
+    }
+    .matching_form .done_btn button:last-child {
+        margin-top: 1rem;
+    }
+
+
+
+    .wedding-diary-top .weddingSlider .img_area {
+        max-width: 10rem;
+        height: 10rem;
+    }
+
+    .wedding-diary-top .weddingSliderBottom .img_area {
+        max-width: 10rem;
+        height: 10rem;
+    }
+
+    .container-full-tab .no-conts > p {
+        font-size: 1rem;
+    }
+    .container-full-tab .no-conts > span {
+        font-size: .8571rem;
+    }
+    .container-full-tab .tab_wrap > a {
+        font-size: .8571rem;
+    }
+
+
+
+
+    .container-full-MI .fix_btn ul li a {
+        font-size: 1rem;
+    }
+    .container-full-MI .message_menu ul li a {
+        font-size: 1rem;
+    }
+    .container-full-MI .message_area .message_title .message_profile p {
+        margin-left: .5rem;
+    }
+    .container-full-MI .message_area .message_profile .profile_img {
+        width: 36px;
+        height: 36px;
+    }
+    .container-full-MI .message_area .message_icon img {
+        width: 1.5rem;
+    }
+
+
+
+     /* container-mp-conts */
+     .container-mp-head .info_wrap {
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+    .container-mp-head .profile {
+        margin-right: 0;
+    }
+    .container-mp-head .info_wrap .info p {
+        margin-top: 1rem;
+    }
+    .container-mp-head .mp_info a {
+        align-self: center;
+    }
+    .container-mp-conts .day-wrap {
+        text-align: center;
+    }
+    .container-mp-conts .date a {
+        align-self: center;
+    }
+
+
+
+    
+
+    .container-sub-head .sub-menu a {
+        font-size: .7142rem;
+    }
+    .container-full-start p {
+        font-size: .7142rem;
+    }
+
+    .container-matching-item ul li .matching_circle {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .container-full-footer span {
+        font-size: .8571rem;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .container-full-list .list_cont .text_area .company_address span {
+        letter-spacing: -0.5px;
+    }
+    
+} 
+
+@media (max-width: 320px) {
+    /* wedding.html */
+
+    /* 추천 웨딩홀 */
+    .container-full-list .list_cont .img_area {
+        width: 40%;
+    }
+    .container-full-list .list_cont .text_area {
+        width: 60%;
+    }
+    .container-full-list .list_cont .text_area .company_name {
+        margin-bottom: 1.4285rem;
+    }
+    .container-full-list.list_cont .text_area .company_bt em {
+        font-size: 0.7142rem;
+    }
+    /* 추천 웨딩홀 */
+    /* wedding.html end */
+
+    /* communication_wedding.html */
+
+    /* 웨딩홀 다이어리 상단 타이틀 */
+    .container-full-diary .text_area p {
+        font-size: 0.8571rem;
+    }
+    /* 웨딩홀 다이어리 상단 타이틀 */
+
+    /* 커뮤니케이션 목록 */
+    .container-full-communication .title {
+        flex-direction: column;
+    }
+    .container-full-communication .title h5 {
+        align-self: start;
+        margin-bottom: 0.7142rem;
+    }
+    /* 커뮤니케이션 목록 */
+
+    /* communication history */
+    .container-full-history .title {
+        flex-direction: row;
+    }
+    .container-full-history .title i {
+        margin-left: 1.1428rem;
+        font-size: 1.2857rem;
+    }
+    .container-full-history .title h3 {
+        font-size: 1.2857rem;
+    }
+    /* communication history end */
+
+    /* communication_wedding.html end */
+
+    /* 매칭 헤더 영역 */
+    .matching_circle {
+        max-width: 14rem;
+        height: 14rem;
+    }
+
+    .matching_circle h1 {
+        font-size: 1.5rem;
+    }
+    .matching_circle p {
+        font-size: 1rem;
+    }
+    .matching_circle .circle_in_line {
+        margin: 1rem 0;
+    }
+
+
+
+    .wedding-date-wrap .wedding-main-title h2 span {
+        font-size: 1.1428rem;
+    }
+    .wedding-diary-top .weddingSlider .swiper-slide p {
+        margin-top: .7142rem;
+    }
+    .wedding-diary-top .weddingSlider .text_area span {
+        font-size: 1rem;
+    }
+
+    .wedding-diary-top .weddingSlider .img_area {
+        max-width: 9rem;
+        height: 9rem;
+    }
+    .wedding-diary-top .weddingSliderBottom .img_area {
+        max-width: 9rem;
+        height: 9rem;
+    }
+}
+@media (max-width:340px) {
+    .container-full-wedding .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container-full-wedding .title  a {
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+    .container-full-list .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container-full-list .title  a {
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+}
+@media (max-width:280px) {
+    .container-full-wedding .title h2 {
+        font-size: 1.35rem;
+    }
+    .container-full-wedding .title a {
+        align-self: flex-end;
+    }
+    .container-full-option .title h2 {
+        font-size: 1.35rem;
+    }
+    .container-full-list .title h1 {
+        font-size: 1.35rem;
+    }
+    .container-full-list .title a {
+        align-self: flex-end;
+    }
+
+    /* container-mp-conts */
+    .container-mp-conts .date p span {
+        font-size: 1rem;
+    }
+    .container-mp-coin .total h1 {
+        font-size: 2.5rem;
+    }
+    .container-mp-coin .total span {
+        margin-bottom: 0;
+    }
+    .container-full-tab .no-conts > p {
+        font-size: 1rem;
+    }
+
+    .container-sub-head .sub-menu {
+        padding: 0 15px;
+    }
+    .container-matching-item .matching-title p {
+        font-size: .8571rem;
+    }
+    .container-matching-item .matching-title select {
+        font-size: .8571rem;
+    }
+    .container-matching-item ul li .matching_circle {
+        width: 8rem;
+        height: 8rem;
+    }
+    .container-matching-item ul li .matching_circle h1 {
+        font-size: 1rem;
+    }
+    .container-matching-item ul li .matching_circle p {
+        font-size: .8571rem;
+    }
+    .matching_circle img {
+        width: 1.2857rem;
+    }
+}

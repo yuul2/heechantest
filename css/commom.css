@@ -1,0 +1,165 @@
+/* 
+
+공통 css mt-4 / mb-4
+pb-4 pt-4
+
+.warp-m{}
+
+header 영역까지는 공통적인 CSS로 작업할 것 common
+
+야놀자 가운데 정렬
+
+*/
+
+
+@import url('fonts.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 14px;
+}
+body{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 14px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, a, p, span, em {
+    margin-bottom: 0;
+}
+em {
+    font-style: normal;
+}
+select:focus,
+button:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.warp-m{
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container-full{
+    position:sticky;
+    top:-1px;
+    z-index: 999;
+}
+header{
+    width: 100%;
+
+}
+
+/* 백그라운드 색 */
+.bg-wh {
+    background: #fff;
+}
+.bg-gr {
+    background: #f5f5f5;
+}
+
+.navi-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+}
+.information .search-bars{
+    line-height: normal;
+    padding: 0.3125rem 1.25rem 0.3125rem 1rem;
+    text-indent: 1rem;   
+    border-radius: 1.5rem;
+    border: 1px solid #d1d1d1;
+}
+.information .search-bars::placeholder {
+    color: #C9C9C9;
+}
+.information-icon button{
+    border: none;
+    background: transparent;
+}
+.information-icon button:first-child {
+    margin: 0 1rem;
+}
+.information-icon button img {
+    width: 1.5rem;
+}
+
+.flex-end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* 공통 그림자 */
+.shadow {
+    box-shadow: 
+        inset 0px 3px 3px -2px rgba(124, 124, 124, 0.3),
+        inset 0px -3px 3px -2px rgba(124, 124, 124, 0.3);
+}
+
+/* 패딩 */
+.pd-1 {
+    padding: 1rem;
+}
+
+.pd-x-32 {
+    padding: 0 2rem;
+}
+
+/* 폰트 */
+.fc-pink {
+    color: #fc274f;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.ff-noto {
+    font-family: "Noto Sans KR";
+}
+
+@media(max-width:767px){
+    .warp-m{
+        width: 100%;
+    }
+}
