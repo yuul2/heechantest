@@ -713,7 +713,7 @@ select::-ms-expand{
     height: 100%;
 }
 .container-full-list .text_area {
-    margin-top: .3571rem;
+    padding-top: .3571rem;
 }
 .container-full-list .text_area span {
     font-family: "Noto Sans KR";
@@ -768,6 +768,7 @@ select::-ms-expand{
 }
 .container-full-list .list-contents .text_area {
     padding: 1rem 2rem;
+    background:#fff;
 }
 .container-full-list .list-contents .content_sub {
     display: flex;
@@ -792,6 +793,7 @@ select::-ms-expand{
     display: flex;
     align-content: flex-end;
     justify-content: space-between;
+    background: #fff;
 }
 .container-full-list .list-contents .content_main p {
     font-family: "Noto Sans KR";
