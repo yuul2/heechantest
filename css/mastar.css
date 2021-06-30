@@ -858,7 +858,7 @@ select::-ms-expand{
     display: flex;
 }
 .container-full-studio .studio_icons ul li {
-    margin-left: .5rem;
+    margin-left: 1rem;
 }
 .container-full-studio .studio_icons ul li a {
     display: flex;
@@ -959,6 +959,7 @@ select::-ms-expand{
     font-family: "Noto Sans KR";
     text-align: center;
     padding: 1rem 0;
+    font-size:1.0714rem;
 }
 .container-full-items .nav-tabs li a.active {
     font-weight: bold;
