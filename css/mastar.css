@@ -779,11 +779,11 @@ select::-ms-expand{
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background: url(../images/icon/ico_like.png)no-repeat;
+    background: url(../images/icon/ico_heart.png)no-repeat;
     background-size: 1.5rem;
 }
 .container-full-list .list-contents .content_sub i.active {
-    background: url(../images/icon/ico_like_fill.png)no-repeat;
+    background: url(../images/icon/ico_heart_active.png)no-repeat;
     background-size: 1.5rem;
 }
 .container-full-list .list-contents .content_sub span {
